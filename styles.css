@@ -1,36 +1,90 @@
 <style>
-body {
+body
+{
   font-style: italic;
 }
 
-h1 {
+h1
+{
   color: black;
 }
 
-table {
-  width: 70%;
+table
+{
+  width: 80%;
   border-collapse: collapse;
+  border: 2px solid black;
   margin-bottom: 40px;
 }
 
-th, td {
+th, td
+{
   border: 1px solid black;
   padding: 8px;
   text-align: center;
-}
-
-th {
-  background-color: lightcoral;
-  color: black;
   font-weight: bold;
 }
 
-tr:nth-child(even) {
-  background-color: lightblue;
-}
 
-tr:nth-child(odd) {
-  background-color: lightcoral;
+
+table:nth-of-type(1) th:nth-child(1) { background-color: red; color: white; }
+table:nth-of-type(1) th:nth-child(2) { background-color: blue; color: white; }
+table:nth-of-type(1) th:nth-child(3) { background-color: orange; color: black; }
+table:nth-of-type(1) th:nth-child(4) { background-color: pink; color: black; }
+
+
+table:nth-of-type(1) tr:nth-child(2) td:nth-child(1) { background-color: yellow; }
+table:nth-of-type(1) tr:nth-child(2) td:nth-child(2) { background-color: lightgreen; }
+table:nth-of-type(1) tr:nth-child(2) td:nth-child(3) { background-color: lightblue; }
+table:nth-of-type(1) tr:nth-child(2) td:nth-child(4) { background-color: violet; }
+
+
+table:nth-of-type(1) tr:nth-child(3) td:nth-child(1) { background-color: orange; }
+table:nth-of-type(1) tr:nth-child(3) td:nth-child(2) { background-color: cyan; }
+table:nth-of-type(1) tr:nth-child(3) td:nth-child(3) { background-color: lightpink; }
+table:nth-of-type(1) tr:nth-child(3) td:nth-child(4) { background-color: khaki; }
+
+
+table:nth-of-type(1) tr:nth-child(4) td:nth-child(1) { background-color: lightcoral; }
+table:nth-of-type(1) tr:nth-child(4) td:nth-child(2) { background-color: lime; }
+table:nth-of-type(1) tr:nth-child(4) td:nth-child(3) { background-color: turquoise; }
+table:nth-of-type(1) tr:nth-child(4) td:nth-child(4) { background-color: gold; }
+
+
+
+table:nth-of-type(2) th:nth-child(1) { background-color: blue; color: white; }
+table:nth-of-type(2) th:nth-child(2) { background-color: red; color: white; }
+table:nth-of-type(2) th:nth-child(3) { background-color: green; color: white; }
+table:nth-of-type(2) th:nth-child(4) { background-color: orange; color: black; }
+table:nth-of-type(2) th:nth-child(5) { background-color: violet; color: white; }
+
+
+table:nth-of-type(2) tr:nth-child(2) td:nth-child(1) { background-color: pink; }
+table:nth-of-type(2) tr:nth-child(2) td:nth-child(2) { background-color: yellow; }
+table:nth-of-type(2) tr:nth-child(2) td:nth-child(3) { background-color: lightblue; }
+table:nth-of-type(2) tr:nth-child(2) td:nth-child(4) { background-color: lightgreen; }
+table:nth-of-type(2) tr:nth-child(2) td:nth-child(5) { background-color: gold; }
+
+
+table:nth-of-type(2) tr:nth-child(3) td:nth-child(1) { background-color: cyan; }
+table:nth-of-type(2) tr:nth-child(3) td:nth-child(2) { background-color: lightcoral; }
+table:nth-of-type(2) tr:nth-child(3) td:nth-child(3) { background-color: plum; }
+table:nth-of-type(2) tr:nth-child(3) td:nth-child(4) { background-color: wheat; }
+table:nth-of-type(2) tr:nth-child(3) td:nth-child(5) { background-color: lime; }
+
+
+table:nth-of-type(2) tr:nth-child(4) td:nth-child(1) { background-color: orange; }
+table:nth-of-type(2) tr:nth-child(4) td:nth-child(2) { background-color: lightgray; }
+table:nth-of-type(2) tr:nth-child(4) td:nth-child(3) { background-color: aquamarine; }
+table:nth-of-type(2) tr:nth-child(4) td:nth-child(4) { background-color: pink; }
+table:nth-of-type(2) tr:nth-child(4) td:nth-child(5) { background-color: yellowgreen; }
+
+p
+{ 
+  color: blue;
+  text-align: center;
+  font-weight: bold;
+  width: 500px;
+  font-family: "Times New Roman", Times, serif;
 }
 </style>
-
